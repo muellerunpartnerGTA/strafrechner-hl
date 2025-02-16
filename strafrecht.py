@@ -1,20 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-strafrecht_python_komplett.py
-
-Dies ist eine reine Python-Version des kompletten Strafkatalog-Skripts (ursprünglich HTML/JS).
-Du kannst das Skript in der Konsole ausführen, um:
-- Nach Gesetzen/Paragraphen/Beschreibungen zu suchen
-- Gefundene Einträge in eine Auswahl-Liste aufzunehmen
-- Einträge aus der Auswahl zu entfernen
-- Summen (Bußgelder, Haftzeiten, Punkte) anzuzeigen
-
-Starte es einfach per:
-    python strafrecht_python_komplett.py
-"""
-
 # --- Datengrundlage: Liste von Dicts (vollständiger Strafkatalog) ---
 STRAF_KATALOG = [
     #==================== StGB ====================
